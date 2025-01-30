@@ -14,7 +14,7 @@
         <div class="header">
             <h2>Weather</h2>
             <div class="weather-input"></div>
-            <input type="text" name="city" id="city_input" placeholder="enter city">
+            <input type="text" name="cityName" id="city_input" placeholder="enter city">
             <button type="button" id="searchBtn">
                 <i class="fa-regular fa-search"></i> Search
             <button type="button" id="locationBtn">
@@ -116,10 +116,6 @@
                     <p>NH3</p>
                     <h2>___</h2>
                 </div>
-                <div class="item">
-                    <p>O3</p>
-                    <h2>___</h2>
-                </div>
             </div>
         </div>
         <div class="card">
@@ -191,12 +187,13 @@
         </div>
         <div class="card-item">
             <i class="fa-light fa-temperature-list fa-2x"></i>
-            <h2 id="feelslikeVal">___&deg;C</h2>
+            <h2 id="feelsVal">___&deg;C</h2>
         </div>
     </div>
     </div>
 </div>
 </div>
+<script src="https://momentjs.com/downloads/moment.min.js"></script>
 <script src="script.js"></script>   
 </body>
 </html>
