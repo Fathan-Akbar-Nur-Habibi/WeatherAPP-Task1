@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const apiKey = "4a866904adc113fe2e9881a4167b750b";
+    const apiKey = "this -is-my-api-key"; // replace with your actual API key
     const searchBtn = document.getElementById("searchBtn");
     const locationBtn = document.getElementById("locationBtn");
     const cityInput = document.getElementById("city_input");
