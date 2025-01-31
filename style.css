@@ -173,3 +173,28 @@ hr {
     display: flex; 
     justify-content: space-between; 
 }
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: var(--bg-color2);
+    color: white;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.linkedin-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+}
+
+.linkedin-icon:hover {
+    transform: scale(1.2);
+}
